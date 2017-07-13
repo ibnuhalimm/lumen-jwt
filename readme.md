@@ -1,21 +1,17 @@
-# Lumen PHP Framework
+# Lumen PHP Framework 5.3.* with JWT
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
-
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+To use this framework just do the following steps :
+* Clone this repo  :~$ git clone https://github.com/ibnuhalimm/lumen-jwt.git
+* Go to the *lumen-jwt* directory
+* Run command **:~$ composer install**
+* Copy the **.env.example** file and rename to **.env**, configure it
+* Run command **:~$ php -S localhost:8000 -t public** and open your browser http://localhost:8000
 
 ## Official Documentation
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+* Lumen Framework [Lumen website](http://lumen.laravel.com/docs).
+* Tymon JWT Auth [JWT Wiki](https://github.com/tymondesigns/jwt-auth/wiki).
 
 ## License
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Lumen framework and JWT Auth licensed under the [MIT license](http://opensource.org/licenses/MIT)
