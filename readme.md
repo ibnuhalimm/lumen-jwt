@@ -5,6 +5,7 @@ To use this framework just do the following steps :
 * Go to the *lumen-jwt* directory
 * Run command **:~$ composer install**
 * Copy the **.env.example** file and rename to **.env**, configure it
+* Run command **:~$ php artisan jwt:secret
 * Run command **:~$ php -S localhost:8000 -t public** and open your browser http://localhost:8000
 
 ## Official Documentation
